@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: #fafafa;
+    scroll-behavior: smooth;
+}
+.main{
+    height:100vh;
+    background-color:#EAECF9;
+    position:relative;
+    margin:20px;
+}
+.navigation{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:50px;
+    align-items:center;
+}
+.logo{
+    margin-top:30px;
+}
+.list{
+    display:flex;
+    list-style:none;
+    margin-top:30px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.listitem{
+    margin-left:100px;
+    font-size:1.2rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight:bold;
+    box-shadow: inset 0px -10px 0px 0px #A8B4FF;
+}
+.heading{
+    font-family: 'Abril Fatface', cursive;
+    font-size:3rem;
+    font-weight:lighter;
+    word-spacing: 5px;
+}
+.name{
+    box-shadow: inset 0px -28px 0px 0px #A8B4FF;
+}
+.para{
+    font-family: 'Mulish', sans-serif;
+    font-size:1.2rem;
+    margin-top:20px;
+}
+.welcome{
+    color:rgb(87, 87, 87);
+}
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:flex-end;
+}
+.image1{
+    height:500px;
+}
+.social{
+    display:flex;
+}
+.icon{
+    height:20px;
+    margin-top:70px;
+    margin-right:50px;
+}
+.about{
+    height:130vh;
+    margin:20px;
+    padding:100px 0 0 0;
+    
+}
+.text .heading{
+    margin-bottom:50px;
+}
+.container2{
+    display:flex;
+    justify-content:space-evenly;
+}
+.info ,.notice{
+    font-size:1.05rem;
+    font-family: 'Mulish', sans-serif;
+    word-spacing:2px;
+}
+.notice{
+    margin-top:50px;
+}
+.highlight{
+    box-shadow: inset 0px -9px 0px 0px #A8B4FF;
+}
+.text{
+    width:40%;
+}
+.image{
+    height:400px;
+    box-shadow:10px 10px 5px #A8B4FF;
+}
+.table{
+    margin-top:70px;
+}
+.skills{
+    font-size:1.3rem;
+    font-family:'Mulish', sans-serif ;
+}
+th{
+    font-family: 'Mulish', sans-serif;
+    padding:20px 0 10px 0;
+    text-align:left;
+}
+td{
+    padding:5px 100px 5px 0;
+    font-family: 'Mulish', sans-serif;
+    font-size:.9rem;
+    font-weight:bold;
+    color:rgb(97, 97, 97);
+    
+}
+.btn{
+    padding:10px 30px;
+   display:inline-block;
+    background-color:black;
+    color:white;
+    text-align:center;
+    font-family: 'Mulish', sans-serif;
+    font-weight:lighter;
+    font-size:1.2rem;
+    margin:150px 0 0 60px;
+   position:relative;
+z-index:1;
+}
+.btn::after{
+    content:'';
+    position:absolute;
+    width:99%;
+    height:95%;
+    border:2px solid black;
+    top:6px;
+    left:6px;
+    z-index:0;
+    
+}
+.contact{
+    height:40vh;
+    background-image:url('/images/plant.jpg');
+    margin:20px 170px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+}
+.details{
+    height:260px;
+    width:450px;
+    background-color:#A8B4FF;
+    position:absolute;
+    top:50%;
+    left:50%;
+    padding:30px;
+   
+}
+.title{
+    font-family: 'Mulish', sans-serif;
+    letter-spacing:4px;
+    font-size: 1.2rem;
+    color:#EAECF9;
+    margin-bottom:10px;
+}
+.info{
+    font-family: 'Mulish', sans-serif;
+    margin-bottom:20px;
+    font-weight:400;
+}
+.contact_me{
+    margin-top:100px;
+    height:90vh;
+}
+.contact_me .heading{
+    margin-left:170px;
+}
+.projects{
+    height:160vh;
+    background-color:#EAECF9;
+    margin:20px;
+    position:relative;
+}
+.projects .heading{
+    margin-left:5%;
+    padding-top:50px;
+}
+.container_pro{
+display:grid;
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+grid-row-gap: 100px;
+margin-left:5%;
+margin-top:50px;
+}
+
+.imgbox{
+    height:200px;
+    width:350px;
+    background-size:cover;
+    background-position: center;
+    position:relative;
+}
+.imgbox1{
+    background-image:url('/images/project1.png');
+}
+.imgbox1:hover{
+    background-image:linear-gradient(to right,rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('/images/project1.png');
+}
+.imgbox2{
+    background-image:url('/images/project2.png');
+}
+.imgbox2:hover{
+    background-image:linear-gradient(to right,rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('/images/project2.png');
+}
+.imgbox3{
+    background-image:url('/images/project3.png');
+}
+.imgbox3:hover{
+    background-image:linear-gradient(to right,rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('/images/project3.png');
+}
+.imgbox4{
+    background-image:url('/images/project4.png');
+}
+.imgbox4:hover{
+    background-image:linear-gradient(to right,rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('/images/project4.png');
+}
+.imgbox5{
+    background-image:url('/images/project5.png');
+}
+.imgbox5:hover{
+    background-image:linear-gradient(to right,rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('/images/project5.png');
+}
+.imgbox6{
+    background-image:url('/images/project6.png');
+}
+.imgbox6:hover{
+    background-image:linear-gradient(to right,rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('/images/project6.png');
+}
+.projectinfo{
+    width:85%;
+    text-align:center;
+    margin-top:10px;
+    font-size:1rem;
+    font-family: 'Mulish', sans-serif;
+}
+.projectheading{
+    width:85%;
+   text-align:center;
+    margin-top:20px;
+    font-size:1.3rem;
+    font-weight:bold;
+    display:inline-block;
+    
+}
+.projectheading .name{
+    box-shadow: inset 0px -10px 0px 0px #A8B4FF;
+}
+.imgbox::after{
+    content:'See Here';
+    padding:5px 20px;
+    font-size:1.2rem;
+    font-weight:bold;
+    border:2px solid white;
+    text-align:center;
+    top:90%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%, -50%);
+    background-color: #A8B4FF;
+    display:none;
+    transition:all 1s ease-in;
+
+}
+.imgbox:hover::after{
+top:50%;
+display:block;
+
+}
+.more{
+    font-size:1.2rem;
+    float:right;
+    margin-top:20px;
+    margin-right:20px;
+    font-family:'Mulish';
+}
+.more .name{
+    box-shadow: inset 0px -10px 0px 0px #A8B4FF;
+}
+.footer{
+    height:20vh;
+    background-color:#1D1D1E;
+    margin:20px 20px 0 20px;
+}
+.containerfoot{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    color:white;
+    padding:4.5% 0 0 0;
+    font-family:'Mulish';
+}
+.copyright{
+    font-weight:lighter;
+    font-size:1rem;
+}
+.copyright .name2{
+    color:#EAECF9;
+    font-weight:bold;
+}
+.icon2{
+    height:20px;
+    margin:0 25px;
+}
