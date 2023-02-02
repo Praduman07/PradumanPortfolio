@@ -1,0 +1,119 @@
+@media only screen and (max-width:480px) {
+    html,body{
+        height:100%;
+        width:100%;
+    }
+.heading{
+    font-size:2rem;
+}
+.main{
+    height:39.5rem;
+    position:relative;
+}
+.navigation{
+    display:none;
+}
+.image1{
+    height:180px;
+    margin:50px 70px 0 70px;
+}
+.container{
+    display:block;
+    position:absolute;
+    top:55%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:80%;
+}
+.icon{
+    margin-top:50px;
+    margin-right:30px;
+}
+.social{
+    margin-left:75px;
+}
+.para{
+    font-size:0.75rem;
+    margin-top:50px;
+}
+.welcome{
+    margin-top:20px;
+}
+.about{
+    height:85rem;
+}
+.image{
+    margin:60px 0 0 65px;
+    height:250px;
+    box-shadow:8px 8px 8px #A8B4FF;
+}
+.container2{
+    display:block;
+}
+.text{
+    width:100%;
+}
+.info{
+    font-size:0.95rem;
+}
+.notice{
+    font-size:1em;
+}
+.btn{
+    margin-top:70px;
+}
+.contact_me{
+    height:40rem;
+}
+.contact_me .heading{
+    margin-left:20px;
+}
+.contact{
+    width:90%;
+    height:30%;
+    background-image:url('/images/plant.jpg');
+    background-attachment: local;
+    margin:20px;
+}
+.details{
+    left:5%;
+    top:70%;
+    width:90%;
+}
+.projects{
+    height:170rem;
+}
+.container_pro{
+    display:block;
+}
+.imgbox{
+    width:95%;
+}
+.projectheading{
+    width:100%;
+    margin-bottom:10px;
+}
+.projectinfo{
+    margin-bottom:70px;
+    width:95%;
+}
+.imgbox:hover::after{
+    display:none;
+}
+.containerfoot{
+display:block;
+
+}
+.copyright{
+    font-size:0.9rem;
+    text-align:center;
+    margin-top:20px;
+    }
+    .footicon{
+        text-align:center;
+        margin-top:20px;
+    }
+    .heading .name{
+        box-shadow: inset 0px -20px 0px 0px #A8B4FF;
+    }
+}

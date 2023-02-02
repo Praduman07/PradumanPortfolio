@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+@import url('/media.css');
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
+    
 }
 html,body{
     background-color: #fafafa;
     scroll-behavior: smooth;
+
 }
 .main{
-    height:100vh;
+    height:40rem;
     background-color:#EAECF9;
     position:relative;
     margin:20px;
@@ -63,6 +66,7 @@ a{
     justify-content: space-evenly;
     align-items:flex-end;
 }
+
 .image1{
     height:500px;
 }
@@ -75,7 +79,7 @@ a{
     margin-right:50px;
 }
 .about{
-    height:130vh;
+    height:52rem;
     margin:20px;
     padding:100px 0 0 0;
     
@@ -150,7 +154,7 @@ z-index:1;
     
 }
 .contact{
-    height:40vh;
+    height:16rem;
     background-image:url('/images/plant.jpg');
     margin:20px 170px;
     background-position: center;
@@ -182,13 +186,13 @@ z-index:1;
 }
 .contact_me{
     margin-top:100px;
-    height:90vh;
+    height:36rem;
 }
 .contact_me .heading{
     margin-left:170px;
 }
 .projects{
-    height:160vh;
+    height:64rem;
     background-color:#EAECF9;
     margin:20px;
     position:relative;
@@ -300,7 +304,7 @@ display:block;
     box-shadow: inset 0px -10px 0px 0px #A8B4FF;
 }
 .footer{
-    height:20vh;
+    height:8rem;
     background-color:#1D1D1E;
     margin:20px 20px 0 20px;
 }
